@@ -7,3 +7,12 @@ token = "sadfgfhgfjhgjhghghdfgsad"
 @app.route("/")
 def hello_world():
     return token
+from flask import Flask
+
+app = Flask(__name__)
+
+token = "sadfgfhgfjhgjhghghdfgsad"
+
+@app.route("/")
+def hello_world():
+    return token
